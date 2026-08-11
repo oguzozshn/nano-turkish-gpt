@@ -1,0 +1,16 @@
+# sanal ortam
+.venv/
+
+# veri ve model ağırlıkları — repoya girmez, prepare.py/train.py yeniden üretir
+data/*.bin
+data/meta.pkl
+*.pt
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# editör
+.vscode/
+.idea/
